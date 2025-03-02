@@ -43,3 +43,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter
+**/android/
+**/ios/
+**/build/
+**/lib/generated_plugin_registrant.dart
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# Other
+*.log
+*.pub
